@@ -1,45 +1,45 @@
 # documentation
-Documentation for KoBoToolbox (ProAgenda2030) project, in SPANISH!
+Documentación del proyecto PRIAS (ProAgenda2030)
 
-## Root
+## Raíz
 
-Some introduction videos into the project's documents (folders have been renamed but file names remain the same)
+Algunos videos de introducción a los documentos del proyecto (se cambió el nombre de las carpetas pero los nombres de los archivos siguen siendo los mismos)
 - Introduction groots-pa2030-docs-1.mp4
 - Introduction groots-pa2030-docs-2.mp4
 - Introduction groots-pa2030-docs-3.mp4
 
 ## Architecture
 - Análisis - CAPY Profile
-  - Evaluation of "CAPY Profile" Feature, was never implemented
+  - Evaluación de la función "Perfil CAPY", nunca se implementó
 - Architectura - Definición por FASES
-  - Initial evaluation of project scope and requirements, largely obsolete but contains some mostly valid architecture, network and flow diagrams (Fase 2 - Arquitectura Candidate B is the closest to actual implementation)
+  - Evaluación inicial del alcance y los requisitos del proyecto, en gran parte obsoleta pero contiene algunos diagramas de flujo, red y arquitectura en su mayoría válidos (Fase 2 - Arquitectura Candidate B is the closest to actual implementation)
 - Architectura - KoboToolbox vs ODK - Pros y Cons
-  - Although the document recommends using KoboToolbox over ODK, ODK was used in the end since its code base was newer & better (updated to recent KoboToolbox changes) and had stronger community support
+  - Aunque el documento recomienda usar KoboToolbox sobre ODK, ODK se usó al final ya que su código base era más nuevo y mejor (actualizado a los cambios recientes de KoboToolbox) y tenía un mayor apoyo de la comunidad.
 - **Arquitectura - Requerimientos técnicos para instituciones beneficiarias candidatas**
-  - Main document for target organizations/government entitities. Describes princicpal tecnical requirements and recommendations for on premise server setup. 
+  - Documento principal para organizaciones objetivo/entidades gubernamentales. Describe los requisitos técnicos principales y las recomendaciones para la configuración del servidor local.
 
 ## Deployment
 - Deployment - AWS deployment considerations - Groots
-  - Description of AWS deployment process and required services
+  - Descripción del proceso de implementación de AWS y los servicios necesarios
 - Deployment - Runbook - Fase 1.docx
-  - Principal document for "KoBoToolbox" deployment process (using a Python script)
+  - Documento principal para el proceso de implementación de "KoBoToolbox" (usando un script de Python)
 - Deployment - Runbook + Support API – Fase 2
-  - Principal document for "Support API" deployment process (for Developers and for Live Deployment)
+  - Documento principal para el proceso de implementación de "Support API" (para desarrolladores y processos de despliegue)
 - Deployment – Support API – Docker estructures
-  - Describes Docker containers of Support API
+  - Describe los contenedores Docker de la "Support API".
 - Maintenance - Backups de base de datos
-  - Describes backup processes of different DBs + known issues. USE AT OWN RISK, NO WARRANTIES!
+  - Describe los procesos de copia de seguridad de diferentes bases de datos + problemas conocidos. **USO BAJO PROPIO RIESGO, SIN GARANTÍAS!**
 
 ### Deployment/scripts
-- some usefull commands and logs for different deployment processes. USE AT OWN RISK, NO WARRANTIES!
+- algunos comandos y registros útiles para diferentes procesos de despliegue. **USO BAJO PROPIO RIESGO, SIN GARANTÍAS!**
  
 ## Development
 - Dashboards - Gestión de archivos R
-  - Describes process to install and update R Dashboard files to server
+  - Describe el proceso para instalar y actualizar los archivos de R Dashboard en el servidor
   - Video Tutorial: dashboards-para-sys-admins.mp4
 - Development – KoBoToolbox customizations
-  - Describes custom changes done to forked "KoBoToolbox" and related repos
+  - Describe los cambios personalizados realizados en "KoBoToolbox" bifurcado y repositorios relacionados
 - Development - Repos & Dockerization
-  - Lists all repos and describes how to merge any future changes to the original repos (Bugfixes) into our custom forks
+  - Enumera todos los repositorios y describe cómo fusionar cualquier cambio futuro en los repositorios originales (correcciones de errores) a las bifurcaciones del proyecto PRIAS
 - Development - Support API Requirements
-  - Describes Development Guidelines + technical requirements of project (for new Developers)
+  - Describe las pautas de desarrollo y los requisitos técnicos del proyecto (para nuevos desarrolladores)
